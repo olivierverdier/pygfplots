@@ -22,6 +22,10 @@ p.append('tikz_footer', '\draw[->,very thick] (zero_label) to[out=180,in=150] (z
 p.save() # for interactive visualisation
 p.save('example') # to save to a tex file "example.tex"
 ```
+The result produced is
+
+![Chebyshev plot](https://github.com/olivierverdier/pygfplots/raw/master/images/cheb.png)
+
 
 The general structure of the template is
 ```tex
